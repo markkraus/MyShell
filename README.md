@@ -1,3 +1,6 @@
+# Repository Guide
+https://drive.google.com/file/d/1xW6C1sppEZFuYvHuE_j1Ewoz-VjecHf8/view?usp=sharing
+
 # MyShell
 - Function pointers<br>
 - Threading<br>
@@ -9,4 +12,6 @@
 
 # How to Run
 gcc msh.c -o msh<br>
-./msh plugin.c
+./msh
+To load the plugin (must be a shared object file): load plugin<br>
+To run the plugin: plugin <_command_>
